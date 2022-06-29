@@ -1,0 +1,12 @@
+{
+    "ID": "DBB6BFB2E23C4172BB12ACA75863824C",
+    "ActionKeyword": "yt-dlp",
+    "Name": "yt-dlp for FlowLauncher",
+    "Description": "yt-dlp implementation for flow launcher",
+    "Author": "DaBlincx",
+    "Version": "1.0.0",
+    "Language": "python",
+    "Website": "https://dablincx.github.io",
+    "IcoPath": "icon.png",
+    "ExecuteFileName": "run.py"
+}

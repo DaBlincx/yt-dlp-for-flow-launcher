@@ -1,0 +1,29 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "parent_folder_path",
+        "kind": 5,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "parent_folder_path = os.path.abspath(os.path.dirname(__file__))\nsys.path.append(parent_folder_path)\nsys.path.append(os.path.join(parent_folder_path, 'lib'))\nsys.path.append(os.path.join(parent_folder_path, 'plugin'))",
+        "detail": "run",
+        "documentation": {}
+    }
+]
