@@ -22,7 +22,7 @@
         "kind": 5,
         "importPath": "run",
         "description": "run",
-        "peekOfCode": "parent_folder_path = os.path.abspath(os.path.dirname(__file__))\nsys.path.append(parent_folder_path)\nsys.path.append(os.path.join(parent_folder_path, 'lib'))\nsys.path.append(os.path.join(parent_folder_path, 'plugin'))",
+        "peekOfCode": "parent_folder_path = os.path.abspath(os.path.dirname(__file__))\nsys.path.append(parent_folder_path)\nsys.path.append(os.path.join(parent_folder_path, 'lib'))\nsys.path.append(os.path.join(parent_folder_path, 'plugin'))\nif __name__ == '__main__':",
         "detail": "run",
         "documentation": {}
     }
